@@ -1,0 +1,10 @@
+Class “Worker Of Company”
+
+Attributes: type of devices, price, screnn size, volume f internal memory,
+            the presence of photo/video camera, the presence front camera,
+			the presence of flash in camera, sim card support, 3mm jack out support,
+			availability of WiFi.
+
+
+Methods: get/set type of device, get/set price of device, get/set volume of internal
+		memory, turn on WiFi, turn on flash on the camera, take a photo, insert sim-card.

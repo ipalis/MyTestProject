@@ -1,0 +1,8 @@
+Class “Customer Goods”
+
+Attributes: name, food or non-food, bought in supermarket, price
+            delivery, quality, packaging, size, color, manufacturer, address delivery. time delivery.
+
+
+Methods: get and set name, where the goods bought, calculate price for packaging, calculate total price,
+		order delivery, cancel delivery, get size of goods, get information of goods to  string.

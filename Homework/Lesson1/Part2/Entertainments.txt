@@ -1,0 +1,12 @@
+Class “Entertainments”
+
+Attributes: species of entertainments, price, place of entertainments,
+			time of entertainments, duration, single or collectibe 
+			entertainments, availability to children, age limit,
+			gender, weight limit.			
+
+
+Methods: get and set species of entertainments, get and set price,
+		 lower age limit, price up, allow from children, set quantity 
+		 person, get and set weight limit.
+

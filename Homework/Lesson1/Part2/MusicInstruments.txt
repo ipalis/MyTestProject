@@ -1,0 +1,9 @@
+Class “MusicInstruments”
+
+Attributes: type of instruments, price, model, presence of carrying case,
+			presence of strings, electric or non electric instrument,
+			type of production, material, color, weight.
+
+Methods: get and set type of instrument, get and set price, put in carrying case,
+		 replace strings, conncetcted to ampfilier, get and set material, change
+		 color of instrument.

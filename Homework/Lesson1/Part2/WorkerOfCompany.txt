@@ -1,0 +1,9 @@
+Class “Worker Of Company”
+
+Attributes: id, first name, last name, age, salary, quantity of working hours, has driver license,
+            job name, experience, maritial status.
+
+
+Methods: getters and setters methods, validation method, cost of one hour of work, toString method,
+              decrement salary, increment salary
+			  
