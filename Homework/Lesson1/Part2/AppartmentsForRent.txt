@@ -1,0 +1,10 @@
+Class “AppartmentsForRent”
+
+Attributes: rent price, quantity of rooms, floor, living square,
+			availability of elevator, a of bath, Internet connection availability,
+			availability of balcony, one/two-level appartments, parking availability.
+
+Methods: get and set price, connecting to Internet, select quantity of roms'
+		 select floor, select appartment with elevator, select living square,
+		 select appartment with balcony, rent two-level appartment, rent
+		 appartment with parking.

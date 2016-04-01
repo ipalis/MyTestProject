@@ -16,7 +16,7 @@ public MusicInstruments (String type, double price, String model, boolean isCase
 		this.type = type;
 		this.price = price;
 		this.model = model;
-		this.isCase = isCase;
+		this.isCarryingCase = isCarryingCase;
 		}
 
 public String getType() {

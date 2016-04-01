@@ -1,0 +1,7 @@
+Class "ShoesMarket"
+
+Attributes: price, size, label, season, type, material, color, gender,
+			availability to order, availability to delivery.
+
+Methods: get abd set price, buy shoes, create order, sort by label, select color,
+		 select material, select shoes size, see shoes price.
