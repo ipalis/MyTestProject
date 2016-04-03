@@ -1,0 +1,6 @@
+ Class “Appliances”
+
+Attributes: producer, capacity, working on battery.
+
+
+Methods: get producer and capacity.

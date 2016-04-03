@@ -1,0 +1,6 @@
+Class “CompositionShoes”
+
+Attributes: volume composition in quantity of pair, composition is in shop,
+			quantity of workers.
+
+Methods: get quantity of pair, get is in shop.

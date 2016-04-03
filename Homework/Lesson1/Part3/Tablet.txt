@@ -1,0 +1,6 @@
+Class “Tablet”
+
+Attributes: producer, type of opeariting system,
+			availability GPS navigation.
+
+Methods: get producer, get type of opeariting system.

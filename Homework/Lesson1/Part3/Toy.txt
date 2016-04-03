@@ -1,0 +1,6 @@
+Class “Toy”
+
+Attributes: the name of the toy, availability interactive functions,
+			is soft toy.
+
+Methods: get name of toy, get is interactive.

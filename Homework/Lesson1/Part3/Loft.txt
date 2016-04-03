@@ -1,0 +1,5 @@
+Class “Loft”
+
+Attributes: availability of kitchen, ceiling height. availability of shower.
+
+Methods: rent loft with kitchen, get ceiling height.

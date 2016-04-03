@@ -1,0 +1,5 @@
+Class “InternetShop”
+
+Attributes: web address, offers abroad, possibility of delivery abroad.
+
+Methods: get web address, get offers abroad.

@@ -1,0 +1,5 @@
+Class “CountryHouse”
+
+Attributes: availability of garage, availability of pool, garden availability.
+
+Methods: put car in the garage, get availability of pool.

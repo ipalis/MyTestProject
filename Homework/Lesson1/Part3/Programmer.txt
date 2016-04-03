@@ -1,0 +1,6 @@
+ Class “Programmer”
+
+Attributes: name of company, programming language, level.
+
+
+Methods: get programming language and level.

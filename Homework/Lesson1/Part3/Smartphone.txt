@@ -1,0 +1,6 @@
+Class “Smartphone”
+
+Attributes: producer, type of network,
+			the possibility of increasing the external memory .
+
+Methods: get producer, get type of network.

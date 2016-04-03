@@ -1,0 +1,5 @@
+Class “Piano”
+
+Attributes: electronic or acoustic, hull material, producer.
+
+Methods: set hull material, get type of piano.

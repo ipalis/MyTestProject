@@ -1,0 +1,6 @@
+Class “GPSNavigator”
+
+Attributes: producer, model,
+			availability map in complete.
+
+Methods: get producer, get is map complete.

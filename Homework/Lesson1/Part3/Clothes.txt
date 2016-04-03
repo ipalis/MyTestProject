@@ -1,0 +1,6 @@
+Class “Clothes”
+
+Attributes: is sportswear, is travel clothing, color.
+
+
+Methods: get type of clothes.

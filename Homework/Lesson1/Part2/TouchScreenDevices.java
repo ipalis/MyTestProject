@@ -11,7 +11,8 @@ public class TouchScreenDevices {
 			private boolean isWiFi;
 			
 			
-public TouchScreenDevices(String type, double price, double screenSize, int internalMemory, boolean isCamera, Boolean isSim, Boolean isWiFi) {
+public TouchScreenDevices(String type, double price, double screenSize, int internalMemory, boolean isCamera,
+						  Boolean isSim, Boolean isWiFi) {
 				this.type = type;
 				this.price = price;
 				this.screenSize = screenSize;

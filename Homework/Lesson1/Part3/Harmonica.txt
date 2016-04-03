@@ -1,0 +1,5 @@
+Class “Harmonica”
+
+Attributes: firm, tonality, color.
+
+Methods: set firm, get tonality.

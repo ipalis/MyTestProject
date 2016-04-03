@@ -1,0 +1,5 @@
+Class “Hotel”
+
+Attributes: quantity of stars, availability TV, dinner availability.
+
+Methods: get quantity of stars, get availability TV.

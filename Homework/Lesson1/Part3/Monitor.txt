@@ -1,0 +1,5 @@
+Class “Monitor”
+
+Attributes: producer, model, power saving mode.
+
+Methods: get producer, get availability power saving mode.

@@ -1,0 +1,5 @@
+Class “Cinema”
+
+Attributes: genre, full meter or short movie, availability 3D technology.
+
+Methods: get genre of cinema, get viewing techology.

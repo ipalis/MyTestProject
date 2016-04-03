@@ -1,0 +1,6 @@
+Class “Beverages”
+
+Attributes: volume, alcoholic non-alcoholic beverages, producer.
+
+
+Methods: get volume, get alcoholic or non-alcoholic beverages.

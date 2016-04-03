@@ -1,0 +1,5 @@
+Class “Guitar”
+
+Attributes: quantity of string, number of frets, availability floydrose.
+
+Methods: set quantity of string, get number of frets.

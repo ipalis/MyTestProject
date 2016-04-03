@@ -1,0 +1,5 @@
+Class “Kondomynyum”
+
+Attributes: availability of terrace, availability utility room, address.
+
+Methods: open utility room, go out to terrace.

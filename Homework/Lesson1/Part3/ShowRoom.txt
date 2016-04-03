@@ -1,0 +1,5 @@
+Class “Show Room”
+
+Attributes: address, availability dhoes for kids, card payment opportunity.
+
+Methods: get address of show room, get opportunity to pay with credit card.

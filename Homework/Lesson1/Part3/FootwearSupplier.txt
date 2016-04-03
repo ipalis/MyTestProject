@@ -1,0 +1,5 @@
+Class "Footwear Supplier ”
+
+Attributes: name of supplier, address, possibility of express delivery.
+
+Methods: get address, get name.

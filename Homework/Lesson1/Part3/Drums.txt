@@ -1,0 +1,5 @@
+Class “Drums”
+
+Attributes: electronic or acoustic, availability two bass drum, producer.
+
+Methods: set two bass drum, get type of drums.

@@ -1,0 +1,5 @@
+Class “Entertainment Sites”
+
+Attributes: web address. type of content, freepaid content.
+
+Methods: get web address, get type of content.

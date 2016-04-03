@@ -1,0 +1,6 @@
+Class “Household Goods”
+
+Attributes: is goods for home, is goods for building, producer.
+
+
+Methods: get type of goods.

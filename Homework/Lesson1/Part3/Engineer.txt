@@ -1,0 +1,7 @@
+ Class “Engineer”
+
+Attributes: owner or employee hired, line of work(direction),
+			quantity of subordinates.
+
+
+Methods: get owner and direction.
