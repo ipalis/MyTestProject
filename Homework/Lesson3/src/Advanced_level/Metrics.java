@@ -3,15 +3,11 @@ package Advanced_level;
 public class Metrics {
 	
 	private double result1, result2;
-	private int p, f, i, h, bc;
+	//private int p, f, i, h, bc;
 	
 	
 	public Metrics() {
-		this.p = p;
-		this.f = f;
-		this.i = i;
-		this.h = h;
-		this.bc = bc;
+		
 	}
 	
 	public double passedToFailed(int p, int f) {
