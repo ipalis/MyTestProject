@@ -1,0 +1,5 @@
+id:015;
+name: Find flights to airports without duty free;
+type: ComplexScenarios;
+query: SELECT f.flightNumber FROM flights AS f JOIN airlines AS l ON f.flightNumber = l.flightNumber  JOIN airports AS p ON f.departureAirport = p.airport JOIN airports AS a ON f.arrivalAirport = a.airport WHERE a.dutyFree = 'no';
+expectedResult: 1002, 1003, 1005, 1010, 1014, 1019, 1021, 1022, 1023, 1030, 1031, 1033, 1034;

@@ -1,0 +1,1 @@
+CREATE TABLE flights (flightNumber INT(11), departureAirport VARCHAR(45), arrivalAirport VARCHAR(45), stopsNumber INT(11), averageTicketPrice INT(11), availableSeats INT(11), PRIMARY KEY (flightNumber));

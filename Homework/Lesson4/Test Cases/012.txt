@@ -1,0 +1,5 @@
+id: 012;
+name: Find flights Lufthansa airline;
+type: ComplexScenarios;
+query: SELECT f.flightNumber FROM flights AS f JOIN airlines AS l ON f.flightNumber = l.flightNumber WHERE airline = 'Lufthansa';
+expectedResult: 1003, 1004, 1005, 1006;

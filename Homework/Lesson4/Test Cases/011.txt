@@ -1,0 +1,5 @@
+id: 011;
+name: Find flights from New York;
+type: ComplexScenarios;
+query: SELECT f.flightNumber FROM airports AS p JOIN flights AS f ON p.airport = f.departureAirport WHERE airport = 'New York';
+expectedResult: 1005, 1006, 1007, 1008, 1009, 1010;

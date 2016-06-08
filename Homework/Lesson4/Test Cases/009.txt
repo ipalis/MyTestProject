@@ -1,0 +1,6 @@
+id: 009;
+name: check available web registration in Virgin airline;
+type: ComplexScenarios;
+tables: airlines;
+query: SELECT flightNumber FROM airlines WHERE airline = 'Virgin' AND webRegistration = 'yes';
+expectedResult: 1014, 1016;

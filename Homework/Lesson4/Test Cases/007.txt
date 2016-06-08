@@ -1,0 +1,6 @@
+id: 007;
+name: check available priority of boarding in Barcelona;
+type: SimpleScenarios;
+tables: airports;
+query: SELECT priorityBoarding FROM airports WHERE airport = 'Barcelona';
+expectedResult: no;

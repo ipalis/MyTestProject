@@ -1,0 +1,6 @@
+id: 002;
+name: check flights  to the Kiev ;
+type: ComplexScenarios;
+tables: flights;
+query: SELECT flightNumber FROM flights WHERE arrivalAirport = 'Kiev';
+expectedResult: 1006, 1012, 1029;

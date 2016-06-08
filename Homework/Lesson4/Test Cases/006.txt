@@ -1,0 +1,6 @@
+id: 006;
+name: check duty free available in the airport  Helsinki;
+type: SimpleScenarios;
+tables: airports;
+query: SELECT dutyFree FROM airports WHERE airport = 'Helsinki';
+expectedResult:	no;

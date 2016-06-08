@@ -1,0 +1,5 @@
+id:013;
+name: Find airlines which flying from airport Ottava;
+type: ComplexScenarios;
+query: SELECT DISTINCT l.airline FROM flights AS f JOIN airlines AS l ON f.flightNumber = l.flightNumber JOIN airports AS p ON f.departureAirport = p.airport WHERE airport = 'Ottava' ORDER BY l.airline;
+expectedResult: Austrian Airlines, Emirates, WizzAir;

@@ -1,0 +1,6 @@
+id: 001;
+name: check airport in Barcelona;
+type: SimpleScenarios;
+tables: airports;
+query: SELECT airport FROM airports WHERE airport = 'Barcelona';
+expectedResult: Barcelona;

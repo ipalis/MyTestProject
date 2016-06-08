@@ -1,0 +1,6 @@
+id: 005;
+name: check average ticket price to London;
+type: ComplexScenarios;
+tables: flights;
+query: SELECT averageTicketPrice FROM flights WHERE arrivalAirport = 'London';
+expectedResult: 15, 15;

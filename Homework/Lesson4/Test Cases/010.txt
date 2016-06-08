@@ -1,0 +1,6 @@
+id: 010;
+name: check available meal included in AirAsia airline;
+type: ComplexScenarios;
+tables: airlines;
+query: SELECT flightNumber FROM airlines WHERE airline = 'AirAsia' AND isMealincluded = 'yes';
+expectedResult: 1013, 1020, 1023;

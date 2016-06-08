@@ -1,0 +1,6 @@
+id: 008;
+name: check available additional space service in Cathay Pacific airline;
+type: SimpleScenarios;
+tables: airlines;
+query: SELECT flightNumber FROM airlines WHERE airline = 'Cathay Pacific' AND additionalSpaceService = 'yes';
+expectedResult: 1011;

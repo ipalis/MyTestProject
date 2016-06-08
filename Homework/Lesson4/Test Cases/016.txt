@@ -1,0 +1,5 @@
+id: 016;
+name: Story 1;
+type: SimpleScenarios;
+query: SELECT f.flightNumber FROM flights AS f JOIN airlines AS l ON f.flightNumber = l.flightNumber JOIN airports AS p ON f.departureAirport = p.airport WHERE departureAirport = 'London' AND arrivalAirport = 'Munich' AND averageTicketPrice <= 120 AND availableSeats >= 4 AND additionalSpaceService = 'yes' AND priorityBoarding = 'yes';
+expectedResult: 1001;

@@ -1,0 +1,6 @@
+id: 003;
+name: check availability WizzAir airline;
+type: SimpleScenarios;
+tables: airlines;
+query: SELECT DISTINCT airline FROM airlines WHERE airline = 'WizzAir';
+expectedResult:	WizzAir;

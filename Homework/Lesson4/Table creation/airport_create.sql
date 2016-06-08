@@ -1,0 +1,1 @@
+CREATE TABLE airports (airport VARCHAR(45), dutyFree VARCHAR(45), priorityBoarding VARCHAR(45), PRIMARY KEY (airport));

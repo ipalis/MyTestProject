@@ -1,0 +1,1 @@
+CREATE TABLE airlines (flightNumber INT(11), airline VARCHAR(45), additionalSpaceService VARCHAR(45), webRegistration VARCHAR(45), isMealincluded VARCHAR(45), PRIMARY KEY (flightNumber));
