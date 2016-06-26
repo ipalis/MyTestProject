@@ -1,5 +1,5 @@
 INSERT INTO flights (flightNumber, departureAirport, arrivalAirport, stopsNumber, averageTicketPrice, availableSeats) VALUES (1001,	'London',	'Munich',	0,	90,	12);
-INSERT INTO flights (flightNumber, departureAirport, arrivalAirport, stopsNumber, averageTicketPrice, availableSeats) VALUES (1002,	'London',	'New York',	1,	300,	0
+INSERT INTO flights (flightNumber, departureAirport, arrivalAirport, stopsNumber, averageTicketPrice, availableSeats) VALUES (1002,	'London',	'New York',	1,	300,	0);
 INSERT INTO flights (flightNumber, departureAirport, arrivalAirport, stopsNumber, averageTicketPrice, availableSeats) VALUES (1003, 'London',	'Ottava',	1,	290,	2);
 INSERT INTO flights (flightNumber, departureAirport, arrivalAirport, stopsNumber, averageTicketPrice, availableSeats) VALUES (1004,	'London',	'Milan', 0,	45,	33);
 INSERT INTO flights (flightNumber, departureAirport, arrivalAirport, stopsNumber, averageTicketPrice, availableSeats) VALUES (1005,	'New York',	'Sydney',	2,	681,	17);

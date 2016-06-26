@@ -2,4 +2,4 @@ id:014;
 name: Find fllights wit priority boarding;
 type: ComplexScenarios;
 query: SELECT f.flightNumber FROM airports AS p JOIN flights AS f ON p.airport = f.departureAirport WHERE priorityBoarding = 'yes';
-expectedResult: 1001, 1002, 1003, 1004, 1014, 1015, 1019, 1020, 1021, 1022, 1023, 1024, 1030, 1033, 1034, 1035;
+expectedResult: 1001, 1002, 1003, 1004, 1014, 1015, 1019, 1020, 1021, 1022, 1023, 1024, 1030, 1033, 1034;

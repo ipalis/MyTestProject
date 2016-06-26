@@ -1,4 +1,4 @@
-INSERT INTO airlines (flightNumber, airline, additionalSpaceService, webRegistration, isMealincluded) VALUES (1001,	''WizzAir',	'yes',	'no',	'no');
+INSERT INTO airlines (flightNumber, airline, additionalSpaceService, webRegistration, isMealincluded) VALUES (1001,	'WizzAir',	'yes',	'no',	'no');
 INSERT INTO airlines (flightNumber, airline, additionalSpaceService, webRegistration, isMealincluded) VALUES (1002,	'WizzAir',	'no',	'no',	'no');
 INSERT INTO airlines (flightNumber, airline, additionalSpaceService, webRegistration, isMealincluded) VALUES (1003, 'Lufthansa',	'no',	'yes',	'no');
 INSERT INTO airlines (flightNumber, airline, additionalSpaceService, webRegistration, isMealincluded) VALUES (1004,	'Lufthansa',	'yes',	'yes',	'yes');
@@ -13,7 +13,7 @@ INSERT INTO airlines (flightNumber, airline, additionalSpaceService, webRegistra
 INSERT INTO airlines (flightNumber, airline, additionalSpaceService, webRegistration, isMealincluded) VALUES (1013,	'AirAsia',	'no',	'yes',	'yes');
 INSERT INTO airlines (flightNumber, airline, additionalSpaceService, webRegistration, isMealincluded) VALUES (1014,	'Virgin',	'no',	'yes',	'yes');
 INSERT INTO airlines (flightNumber, airline, additionalSpaceService, webRegistration, isMealincluded) VALUES (1015,	'Virgin',	'yes',	'no',	'no');
-INSERT INTO airlines (flightNumber, airline, additionalSpaceService, webRegistration, isMealincluded) VALUES (1016,	''Virgin',	'yes',	'yes',	'no');
+INSERT INTO airlines (flightNumber, airline, additionalSpaceService, webRegistration, isMealincluded) VALUES (1016,	'Virgin',	'yes',	'yes',	'no');
 INSERT INTO airlines (flightNumber, airline, additionalSpaceService, webRegistration, isMealincluded) VALUES (1017,	'AirAsia',	'no',	'no',	'no');
 INSERT INTO airlines (flightNumber, airline, additionalSpaceService, webRegistration, isMealincluded) VALUES (1018, 'Emirates',	'yes',	'yes',	'yes');
 INSERT INTO airlines (flightNumber, airline, additionalSpaceService, webRegistration, isMealincluded) VALUES (1019,	'Ryanair',	'no',	'no',	'no');

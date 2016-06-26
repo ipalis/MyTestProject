@@ -23,7 +23,6 @@ public class BaseTest implements TestRunner {
 		}
 	}
 	
-	
 	// Read from file with parsing atribute and his value
 	public  void readFromFile() throws IOException {
 		// Specify path to your file
@@ -116,7 +115,6 @@ public class BaseTest implements TestRunner {
 		finally {
 			isValid = iSValid;
 		}
-		
 	}
 	
 	public boolean checkTestStatus(){
@@ -138,8 +136,6 @@ public class BaseTest implements TestRunner {
 	public String getTestPath() {
 		return filePath; 
 	}
-	
-	
 	
 	// get atributes names
 	private String readAtributeNames(String line) {
@@ -193,7 +189,6 @@ public class BaseTest implements TestRunner {
 		}
 	}
 	
-	
 	// compare results for complex scenarios
 	private void compareWithExpectedResultComplexScenarios(ResultSet compareResult) throws SQLException{
 		result = false;
@@ -212,11 +207,10 @@ public class BaseTest implements TestRunner {
 			if(setExpResults.equals(setResults)){
 				result = true;
 			}
-			
 		}
 	}
 	
-	// parese expected result to set
+	// parse expected result to set
 		private Set<String> parseExpectedResultsToSet() {
 			Set<String> setExpResults = new HashSet<String>();
 			if(!expectedResult.isEmpty() && (expectedResult.indexOf(";") != -1)){
@@ -240,4 +234,3 @@ public class BaseTest implements TestRunner {
 			return setExpResults;
 		}
 }
-

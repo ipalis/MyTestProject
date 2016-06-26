@@ -1,0 +1,6 @@
+id: 020;
+name: check available seats on flight;
+type: ComplexScenarios;
+tables: flights;
+query: SELECT availableSeats FROM flights WHERE arrivalAirport = 'New York' AND availableSeats != 0;
+expectedResult: 10, 25, 15;

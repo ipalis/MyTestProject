@@ -1,20 +1,27 @@
-import java.util.Scanner;
-
 import java.io.*;
+import java.sql.SQLException;
 
 public class Main {
 
 
-	public static void main(String[] args) {
-		// Create scanner from input path to folder with test cases
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Please input path to folder with tests: ");
-		String path = scan.nextLine();
-		File file = new File(path);
-		//check availability files in folder
+	public static void main(String[] args) throws SQLException {
+		
+		Processor createDb = new TestProcessor("");
+		
+		createDb.createDataBase();
+		createDb.createTableAirlines();
+		createDb.createTableAirports();
+		createDb.createTableFlights();
+		createDb.fillAirlinesTable();
+		createDb.fillAirportTable();
+		createDb.fillFlightsTable();
+		
+		File file = new File("Test Cases");	
+		
 		if (file.exists() && file.isDirectory()){
 			try {
-				TestProcessor testProc = new TestProcessor(path);
+				Processor testProc = new TestProcessor("Test Cases");
+				
 				testProc.parseTest();
 				testProc.executeAllTests();
 				testProc.generateReport();
@@ -25,7 +32,6 @@ public class Main {
 		else{
 			System.out.println("Path is not valid!");
 		}
-		scan.close();
+		
 	}
-
 }

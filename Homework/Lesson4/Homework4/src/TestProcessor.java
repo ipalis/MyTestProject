@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.io.File;
-import java.sql.Connection;
-import java.sql.DriverManager;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Map;
-import java.io.IOException;  
+import java.io.IOException;
 import jxl.Workbook;  
 import jxl.write.Label;
 import jxl.write.Number;  
@@ -12,24 +12,20 @@ import jxl.write.WritableSheet;
 import jxl.write.WritableWorkbook;
 import jxl.write.WriteException;
 import jxl.write.biff.RowsExceededException;
+import java.util.Date;
 
-public class TestProcessor {
+
+public class TestProcessor extends BaseProcessor {
 
 	String folderPath;
 	ArrayList<TestRunner> myTestList;
 	LinkedHashMap<String, Result> myMapResults;
-	Connection connection;
-	boolean hasConnection;
 	
 	public TestProcessor(String path) {
 		this.folderPath = path;
 		this.myTestList = new ArrayList<TestRunner>();
 		this.myMapResults = new LinkedHashMap<String, Result>();
-		this.getConnection();
-	}
-
-	public enum Result {
-		PASSED, FAILED, INVALID
+		super.getConnection();
 	}
 
 	// method which execute all tests
@@ -48,33 +44,6 @@ public class TestProcessor {
 			}
 		}
 	}
-	// create connection to database
-	private void getConnection() {
-		try {
-			// JDBC driver name and database URL
-			String DATABASE_DRIVER = "com.mysql.jdbc.Driver";
-			String DATABASE_URL = "jdbc:mysql://localhost/test";
-
-			// User credentials
-			String USERNAME = "root";
-			String PASSWORD = "root";
-
-			// Register JDBC driver
-			Class.forName(DATABASE_DRIVER);
-
-			// Open a connection
-			System.out.println("Connecting to database...");
-			connection = DriverManager.getConnection(DATABASE_URL, USERNAME, PASSWORD);
-
-			hasConnection = true;
-		}
-
-		catch (Exception e) {
-			// Handle errors for Class.forName
-			hasConnection = false;
-			e.printStackTrace();
-		}
-	}
 	
 	//method which parse tests
 	public void parseTest() {
@@ -84,13 +53,14 @@ public class TestProcessor {
 				myTestList.add(new BaseTest(fileEntry.getAbsolutePath()));
 			}
 		}
-	
 	}
 	
 	// method which generate xls-file with test results
 	public void generateReport() throws IOException, RowsExceededException, WriteException{
 		WritableWorkbook myWorkbook;
-		myWorkbook= Workbook.createWorkbook(new File("D:\\testclub\\2.automation testing\\2.homework\\l4\\Report.xls"));  
+		DateFormat dateFormat = new SimpleDateFormat("yyyy_MM_dd_HH_mm");
+		Date date = new Date();
+		myWorkbook= Workbook.createWorkbook(new File(dateFormat.format(date) + "_Report.xls"));  
 		WritableSheet mySheet = myWorkbook.createSheet("First Sheet", 0);  
 		Label label1 = new Label(0, 0, "Number");  
 		Label label2 = new Label(1, 0, "Test case name");  
@@ -114,4 +84,6 @@ public class TestProcessor {
 		myWorkbook.close();
 
 	}
+
+	
 }
