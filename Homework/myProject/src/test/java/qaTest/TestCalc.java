@@ -61,7 +61,7 @@ public class TestCalc {
     }
 
     // Example of timeout for single test
-    @Test(timeout = 1000)
+    @Test(timeout = 2000)
     public void testDemoTimeout(){
         try {
             Thread.sleep(1500);
@@ -74,6 +74,6 @@ public class TestCalc {
     // Demonstration of assumption methods
     @Test
     public void testDemoAssume(){
-        assumeThat(1, is(2));
+        assumeThat(1, is(1));
     }
 }

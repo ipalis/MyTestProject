@@ -1,0 +1,724 @@
+{
+  "type": "script",
+  "seleniumVersion": "2",
+  "formatVersion": 2,
+  "steps": [
+    {
+      "type": "get",
+      "url": "http://www.calculator.net/mortgage-calculator.html"
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/p[1]/img"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "content"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[2]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[2]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "h2.h2result"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[1]/table/tbody/tr[1]/td[3]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "chouseprice"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "chouseprice"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "h2.h2result"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[2]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "cstartyear"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[2]/tbody/tr/td[1]"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "chouseprice"
+      },
+      "text": "125000"
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[2]/tbody/tr/td"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "css selector",
+        "value": "body"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "link text",
+        "value": "Pregnancy"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[2]/tbody/tr/td[2]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[2]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "content"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='camortizationschdis']//h2[.='Annual Amortization Schedule']"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "link text",
+        "value": "Annual Schedule"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//table[2]/tbody/tr/td"
+      }
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "chouseprice"
+      },
+      "text": "\\undefined"
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']//td[.='House Price']"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']//td[.='Property Tax']"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']//td[.='years']"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "cloanterm"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "cdownpayment"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "cdownpayment"
+      },
+      "text": "15"
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']//td[.='%']"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[1]/table/tbody"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']//td[.='years']"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "cinterestrate"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[1]/table/tbody/tr[4]/td[2]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "cloanterm"
+      }
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "cdownpayment"
+      },
+      "text": "\\undefined"
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "cloanterm"
+      },
+      "text": "20"
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']//td[.='years']"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[1]/table/tbody/tr[4]/td[3]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']//td[.='years']"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[1]/table/tbody/tr[4]/td[3]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "cinterestrate"
+      }
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "cloanterm"
+      },
+      "text": "\\undefined"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "cinterestrate"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[1]/table/tbody/tr[4]/td[3]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']//td[.='/year']"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "cinterestrate"
+      },
+      "text": "2.45"
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "chomeins"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']//td[.=' Include Optionals Below']"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "cpropertytaxes"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[1]/table/tbody/tr[6]/td[2]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "chomeins"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "cpropertytaxes"
+      }
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "cinterestrate"
+      },
+      "text": "\\undefined"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "cpropertytaxes"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "cstartyear"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[1]/table/tbody/tr[11]/td[2]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[1]/table/tbody"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "cpropertytaxes"
+      },
+      "text": "1"
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[1]/table/tbody/tr[10]/td[3]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "cothercost"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']//td[.='$240,000.00']"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']//td[.='Total Interest']"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[1]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[1]/table"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "cothercost"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[1]/table/tbody/tr[10]/td[2]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[1]/table/tbody"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "chomeins"
+      }
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "cpropertytaxes"
+      },
+      "text": "\\undefined"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "chomeins"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[1]/table/tbody/tr[9]/td[2]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']//tr[.='HOA Fee$ /year']"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "choa"
+      }
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "chomeins"
+      },
+      "text": "\\103"
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "cothercost"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[1]/table/tbody/tr[10]/td[2]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "cpmi"
+      }
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "chomeins"
+      },
+      "text": "\\undefined"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "cpmi"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']//tr[.='HOA Fee$ /year']"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[1]/table/tbody/tr[9]/td[2]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "chomeins"
+      }
+    },
+    {
+      "type": "setElementText",
+      "locator": {
+        "type": "id",
+        "value": "chomeins"
+      },
+      "text": "700"
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']//td[.='/year']"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "cpmi"
+      }
+    },
+    {
+      "type": "sendKeysToElement",
+      "locator": {
+        "type": "id",
+        "value": "chomeins"
+      },
+      "text": "\\undefined"
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "id",
+        "value": "cpmi"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "cothercost"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "id",
+        "value": "cstartyear"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[1]/table/tbody/tr[12]/td[1]/input[2]"
+      }
+    },
+    {
+      "type": "clickElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[1]/tbody/tr/td[1]/table/tbody/tr[12]/td[1]/input[2]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='mRateData']//b[.='Latest Mortgage Rate:']"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='mRateData']/div"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[2]/tbody/tr/td[2]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='content']/table[2]"
+      }
+    },
+    {
+      "type": "mouseOverElement",
+      "locator": {
+        "type": "xpath",
+        "value": "//div[@id='camortizationschdis']//h2[.='Annual Amortization Schedule']"
+      }
+    }
+  ],
+  "data": {
+    "configs": {},
+    "source": "none"
+  },
+  "inputs": [],
+  "timeoutSeconds": 60
+}
