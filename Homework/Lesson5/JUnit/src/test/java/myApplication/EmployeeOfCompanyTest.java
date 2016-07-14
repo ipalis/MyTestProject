@@ -1,15 +1,12 @@
 package myApplication;
 
-
 import org.junit.*;
 import org.junit.rules.ExpectedException;
 import org.junit.rules.TestRule;
 import org.junit.rules.Timeout;
-import org.junit.runner.Result;
 
 import static org.hamcrest.core.StringStartsWith.startsWith;
 import static org.junit.Assert.*;
-
 
 public class EmployeeOfCompanyTest {
 
@@ -31,6 +28,11 @@ public class EmployeeOfCompanyTest {
     public void createObject() {
 
         employee = new EmployeeOfCompany();
+    }
+
+    @After
+    public void tearDown() {
+        employee = null;
     }
 
     @Test
@@ -55,6 +57,7 @@ public class EmployeeOfCompanyTest {
 
     @Test
     public void testIsHasDriversLicense() {
+
         assertTrue(String.valueOf(true), employee.isHasDriversLicense(true));
     }
 
@@ -103,8 +106,8 @@ public class EmployeeOfCompanyTest {
     }
 
     @Test
-    public void testGetFirstName() {
-        assertEquals("Get first name doesn't work!", "Smith", employee.getFirstName("Smith"));
+    public void testGetName() {
+        assertEquals("Get name doesn't work!", "John Smith", employee.getName("John ", "Smith"));
     }
 
     @Test
@@ -114,8 +117,13 @@ public class EmployeeOfCompanyTest {
     }
 
     @Test
-    public void testCalculateSalaryUp(){
+    public void testCalculateSalaryUp() {
+
         assertEquals(1100, employee.calculateSalaryUp(1.1), 0);
     }
 
+    @Test
+    public void testCalculateYearlySalary(){
+        assertEquals("Calculate doesn't work!", 12000, employee.calculateYearlySalary(1000));
+    }
 }
