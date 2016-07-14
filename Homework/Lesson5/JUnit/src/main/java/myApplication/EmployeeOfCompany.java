@@ -15,7 +15,7 @@ public class EmployeeOfCompany {
 
     //calculates and return salary with base rate, bonus and experience
     public int calculateSalary(int baseRate, float experienceRatio, int bonus) {
-        int salary;
+        int salary=0;
         salary = (int) ((baseRate * experienceRatio) + bonus);
         return (int) salary;
     }
@@ -77,7 +77,4 @@ public class EmployeeOfCompany {
         yearlySalary = salary * 12;
         return yearlySalary;
     }
-
-
-
 }
