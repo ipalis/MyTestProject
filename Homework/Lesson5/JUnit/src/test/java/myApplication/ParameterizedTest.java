@@ -1,4 +1,4 @@
-/*package myApplication;
+package myApplication;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -28,16 +28,18 @@ public class ParameterizedTest {
     @Test
     public void testCalculateSalary() {
         EmployeeOfCompany empl = new EmployeeOfCompany();
-        int result = empl.calculateSalary();
-        Assert.assertEquals("Результат(" + result + ") не равен " + expectedResult, result == expectedResult);
+        int result = empl.calculateSalary(baseRate, experienceRatio, bonus);
+        Assert.assertEquals(result, result = expectedResult);
+
     }
 
     @Parameterized.Parameters
     public static Collection<Object[]> getTestData() {
         return Arrays.asList(new Object[][]{
-                {500, 1.5, 100, 850},
-                {600, 1.5, 100, 1000}
+                {500, 1.5f, 100, 850},
+                {600, 1.5f, 100, 1000},
+                {1000, 1.8f, 250, 2049}
         });
     }
 
-}*/
+}
