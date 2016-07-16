@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class EmployeeDetails {
 
     private String name;
@@ -8,6 +10,9 @@ public class EmployeeDetails {
     private double experienceRatio;
     private double bonus;
     private int id;
+    private Date dateExpireId;
+
+
 
 
     // @return the name
@@ -104,5 +109,14 @@ public class EmployeeDetails {
     public void setId(int id) {
 
         this.id = id;
+    }
+    //return the expire date
+    public void setDateExpire(Date newDateExpireId){
+        dateExpireId = newDateExpireId;
+    }
+
+    //param id to set expire date
+    public Date getDateExpire(){
+        return dateExpireId;
     }
 }

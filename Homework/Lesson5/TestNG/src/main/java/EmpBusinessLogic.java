@@ -1,4 +1,9 @@
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class EmpBusinessLogic {
+
 
     // Calculate the yearly salary of employee
     public double calculateYearlySalary(EmployeeDetails employeeDetails){
@@ -41,11 +46,26 @@ public class EmpBusinessLogic {
 
     //Shows whether all data on worker
     public boolean isValidEmployee(EmployeeDetails employeeDetails) {
+
         if (!((employeeDetails.getId() > 0) & employeeDetails.getName().isEmpty())) {
             return false;
         } else {
             return true;
         }
+    }
+
+    // Check expire date of Id
+    public boolean checkExprireDateId(EmployeeDetails employeeDetails) {
+
+        DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+        Date data = new Date();
+        System.out.println("Current time: " + data + " Actual result: " + data.before(employeeDetails.getDateExpire()));
+        return data.before(employeeDetails.getDateExpire());
+    }
+
+    //
+    public void checkDataOfWorker(EmployeeDetails employeeDetails){
+
     }
 
 }

@@ -79,6 +79,12 @@ public class TestEmployeeDetails {
 
     @Test(expectedExceptions = NullPointerException.class)
     public void throwsNullPointerException() {
+
         throw new NullPointerException();
+    }
+
+    @Test (enabled = false)
+    public void testCheckDataOfWorker(){
+
     }
 }
