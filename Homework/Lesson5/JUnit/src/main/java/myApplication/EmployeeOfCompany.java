@@ -71,7 +71,7 @@ public class EmployeeOfCompany {
         double salary = 1000;
         return salary * experienceCoefficient;
     }
-    //calculates early salary
+    //calculates yearly salary
     public int calculateYearlySalary(int salary){
         int yearlySalary;
         yearlySalary = salary * 12;

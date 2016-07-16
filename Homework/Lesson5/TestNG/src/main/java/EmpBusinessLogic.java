@@ -76,4 +76,28 @@ public class EmpBusinessLogic {
         return vacationDay;
     }
 
+    //
+    public double calculateSalaryOnVacation(EmployeeDetails employeeDetails) {
+
+        double salaryOnVacation = 0;
+        salaryOnVacation = (employeeDetails.getWorkingMonth() * 2) * (employeeDetails.getMonthlySalary()/employeeDetails.getWorkingDay());
+        return salaryOnVacation;
+    }
+
+    //calculate the amount of yearly tax(14%)
+    public  double calculateTaxAmount(EmployeeDetails employeeDetails){
+
+        double tax = 0;
+        tax = ((employeeDetails.getMonthlySalary() * 12) / 100) * 14;
+        return tax;
+    }
+
+    //Calculate daily salary
+    public  double calculateDailySalary(EmployeeDetails employeeDetails) {
+
+        double dailySalary = 0;
+        dailySalary = employeeDetails.getMonthlySalary()/employeeDetails.getWorkingDay();
+        return  dailySalary;
+    }
+
 }
