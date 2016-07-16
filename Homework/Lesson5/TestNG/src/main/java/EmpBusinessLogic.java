@@ -68,4 +68,12 @@ public class EmpBusinessLogic {
 
     }
 
+    //Vacation calculated based on hours worked 2 days a month
+    public int calculateVacation(EmployeeDetails employeeDetails){
+
+        int vacationDay = 0;
+        vacationDay = employeeDetails.getWorkingMonth() * 2;
+        return vacationDay;
+    }
+
 }

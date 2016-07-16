@@ -4,7 +4,7 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.xml.dom.Tag;
 
-public class TestEmployeeDetails {
+public class TestEmployeeDetails1 {
     EmpBusinessLogic empBusinessLogic = new EmpBusinessLogic();
     EmployeeDetails employee = new EmployeeDetails();
 
@@ -19,7 +19,7 @@ public class TestEmployeeDetails {
         System.out.println("in afterTest");
     }
 
-    @Test
+    @Test (groups = {"functest"})
     public void testCalculateAppriasal() {
 
         employee.setName("Smith");
@@ -31,7 +31,7 @@ public class TestEmployeeDetails {
     }
 
     // Test to check yearly salary
-    @Test
+    @Test (groups = {"functest"})
     public void testCalculateYearlySalary() {
 
         employee.setName("Smith");
@@ -43,7 +43,7 @@ public class TestEmployeeDetails {
     }
 
     //Test to check cost of one hour work
-    @Test
+    @Test (groups = {"functest"})
     public void testCalculateOneHourCost() {
 
         employee.setName("Smith");
@@ -55,7 +55,7 @@ public class TestEmployeeDetails {
         Assert.assertEquals(50, oneHourCost, 0.0, "50");
     }
 
-    @Test
+    @Test (groups = {"functest"})
     public void testCalculateSalary() {
 
         employee.setBaseRate(500);
@@ -66,7 +66,7 @@ public class TestEmployeeDetails {
         Assert.assertEquals(850, result, 0.0, "850");
     }
 
-    @Test
+    @Test (groups = {"datatest"})
     public void testIsValidEmployee(){
 
         employee.setId(-5);

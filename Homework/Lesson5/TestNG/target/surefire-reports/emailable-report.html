@@ -31,21 +31,55 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0,0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Command line test</td><td class="numi">9</td><td class="numi">9</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0,1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">Command line test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="2">CalcTest</td><td><a href="#m1"><b>testNullPointerException</b>  </a></td><td class="numi">1</td><td>1468502453225</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m2"><b>testSum</b>  </a></td><td class="numi">1</td><td>1468502453229</td><td class="numi">3</td></tr>
+<tr class="passedodd"><td rowspan="4">TestEmployeeDetails</td><td><a href="#m1"><b>testCalculateAppriasal</b>  </a></td><td class="numi">1</td><td>1468691444533</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m2"><b>testCalculateOneHourCost</b>  </a></td><td class="numi">1</td><td>1468691444534</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m3"><b>testCalculateSalary</b>  </a></td><td class="numi">1</td><td>1468691444536</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m4"><b>testCalculateYearlySalary</b>  </a></td><td class="numi">1</td><td>1468691444537</td><td class="numi">0</td></tr>
+<tr class="passedeven"><td rowspan="3">ParamTest</td><td><a href="#m5"><b>testCheckExpireDateId</b>  </a></td><td class="numi">3</td><td>1468691444494</td><td class="numi">39</td></tr><tr class="passedeven"><td><a href="#m6"><b>testCheckExpireDateId</b>  </a></td><td class="numi">3</td><td>1468691444494</td><td class="numi">39</td></tr><tr class="passedeven"><td><a href="#m7"><b>testCheckExpireDateId</b>  </a></td><td class="numi">3</td><td>1468691444494</td><td class="numi">39</td></tr>
+<tr class="passedodd"><td rowspan="2">TestEmployeeDetails</td><td><a href="#m8"><b>testIsValidEmployee</b>  </a></td><td class="numi">1</td><td>1468691444537</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m9"><b>throwsNullPointerException</b>  </a></td><td class="numi">1</td><td>1468691444538</td><td class="numi">0</td></tr>
 </table>
 <h1>Command line test</h1>
-<h2 id="m1">CalcTest:testSum</h2>
+<h2 id="m1">TestEmployeeDetails:testCalculateYearlySalary</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">CalcTest:testNullPointerException</h2>
+<h2 id="m2">TestEmployeeDetails:testIsValidEmployee</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">ParamTest:testCheckExpireDateId</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>10/02/2018</td>
+<td>true</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">TestEmployeeDetails:testCalculateAppriasal</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">ParamTest:testCheckExpireDateId</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>15/10/2015</td>
+<td>false</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">TestEmployeeDetails:testCalculateOneHourCost</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">ParamTest:testCheckExpireDateId</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>8/7/2017</td>
+<td>true</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">TestEmployeeDetails:throwsNullPointerException</h2>
 <div style="padding-left:3em">
 <p>null</p>
-CalcTest.testNullPointerException(CalcTest.java:68)
-<br/>34 lines not shown
+TestEmployeeDetails.throwsNullPointerException(TestEmployeeDetails.java:83)
+<br/>35 lines not shown
 </div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">TestEmployeeDetails:testCalculateSalary</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

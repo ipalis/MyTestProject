@@ -1,33 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="CalcTest" duration-ms="19" started-at="2016-07-14T13:20:53Z" finished-at="2016-07-14T13:20:53Z">
+  <suite name="Command line suite" duration-ms="70" started-at="2016-07-16T17:50:44Z" finished-at="2016-07-16T17:50:44Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="19" started-at="2016-07-14T13:20:53Z" finished-at="2016-07-14T13:20:53Z">
-      <class name="CalcTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:CalcTest@48140564]" name="beforeSuite" is-config="true" duration-ms="10" started-at="2016-07-14T16:20:53Z" finished-at="2016-07-14T16:20:53Z">
+    <test name="Command line test" duration-ms="70" started-at="2016-07-16T17:50:44Z" finished-at="2016-07-16T17:50:44Z">
+      <class name="ParamTest">
+        <test-method status="PASS" signature="testCheckExpireDateId(java.lang.String, boolean)[pri:0, instance:ParamTest@511baa65]" name="testCheckExpireDateId" duration-ms="35" started-at="2016-07-16T20:50:44Z" data-provider="exampletest2" finished-at="2016-07-16T20:50:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8/7/2017]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:CalcTest@48140564]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-07-14T16:20:53Z" finished-at="2016-07-14T16:20:53Z">
+        </test-method> <!-- testCheckExpireDateId -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:ParamTest@511baa65]" name="initialize" is-config="true" duration-ms="0" started-at="2016-07-16T20:50:44Z" finished-at="2016-07-16T20:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:ParamTest@511baa65]" name="initialize" is-config="true" duration-ms="0" started-at="2016-07-16T20:50:44Z" finished-at="2016-07-16T20:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testCheckExpireDateId(java.lang.String, boolean)[pri:0, instance:ParamTest@511baa65]" name="testCheckExpireDateId" duration-ms="2" started-at="2016-07-16T20:50:44Z" data-provider="exampletest2" finished-at="2016-07-16T20:50:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15/10/2015]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckExpireDateId -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:ParamTest@511baa65]" name="initialize" is-config="true" duration-ms="0" started-at="2016-07-16T20:50:44Z" finished-at="2016-07-16T20:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testCheckExpireDateId(java.lang.String, boolean)[pri:0, instance:ParamTest@511baa65]" name="testCheckExpireDateId" duration-ms="0" started-at="2016-07-16T20:50:44Z" data-provider="exampletest2" finished-at="2016-07-16T20:50:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10/02/2018]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckExpireDateId -->
+      </class> <!-- ParamTest -->
+      <class name="TestEmployeeDetails">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestEmployeeDetails@27f674d]" name="beforeTest" is-config="true" duration-ms="13" started-at="2016-07-16T20:50:44Z" finished-at="2016-07-16T20:50:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:CalcTest@48140564]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-07-14T16:20:53Z" finished-at="2016-07-14T16:20:53Z">
+        <test-method status="PASS" signature="testCalculateAppriasal()[pri:0, instance:TestEmployeeDetails@27f674d]" name="testCalculateAppriasal" duration-ms="1" started-at="2016-07-16T20:50:44Z" finished-at="2016-07-16T20:50:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:CalcTest@48140564]" name="setUp" is-config="true" duration-ms="1" started-at="2016-07-14T16:20:53Z" finished-at="2016-07-14T16:20:53Z">
+        </test-method> <!-- testCalculateAppriasal -->
+        <test-method status="PASS" signature="testCalculateOneHourCost()[pri:0, instance:TestEmployeeDetails@27f674d]" name="testCalculateOneHourCost" duration-ms="1" started-at="2016-07-16T20:50:44Z" finished-at="2016-07-16T20:50:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testNullPointerException()[pri:0, instance:CalcTest@48140564]" name="testNullPointerException" duration-ms="2" started-at="2016-07-14T16:20:53Z" finished-at="2016-07-14T16:20:53Z">
+        </test-method> <!-- testCalculateOneHourCost -->
+        <test-method status="PASS" signature="testCalculateSalary()[pri:0, instance:TestEmployeeDetails@27f674d]" name="testCalculateSalary" duration-ms="0" started-at="2016-07-16T20:50:44Z" finished-at="2016-07-16T20:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateSalary -->
+        <test-method status="PASS" signature="testIsValidEmployee()[pri:0, instance:TestEmployeeDetails@27f674d]" name="testIsValidEmployee" duration-ms="0" started-at="2016-07-16T20:50:44Z" finished-at="2016-07-16T20:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsValidEmployee -->
+        <test-method status="PASS" signature="testCalculateYearlySalary()[pri:0, instance:TestEmployeeDetails@27f674d]" name="testCalculateYearlySalary" duration-ms="0" started-at="2016-07-16T20:50:44Z" finished-at="2016-07-16T20:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateYearlySalary -->
+        <test-method status="PASS" signature="throwsNullPointerException()[pri:0, instance:TestEmployeeDetails@27f674d]" name="throwsNullPointerException" duration-ms="0" started-at="2016-07-16T20:50:44Z" finished-at="2016-07-16T20:50:44Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at CalcTest.testNullPointerException(CalcTest.java:68)
+	at TestEmployeeDetails.throwsNullPointerException(TestEmployeeDetails.java:83)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -50,7 +120,8 @@
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
 	at org.testng.TestNG.run(TestNG.java:1031)
 	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
 	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -66,36 +137,12 @@
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNullPointerException -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:CalcTest@48140564]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-07-14T16:20:53Z" finished-at="2016-07-14T16:20:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="testSum()[pri:0, instance:CalcTest@48140564]" name="testSum" duration-ms="3" started-at="2016-07-14T16:20:53Z" finished-at="2016-07-14T16:20:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSum -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:CalcTest@48140564]" name="setUp" is-config="true" duration-ms="0" started-at="2016-07-14T16:20:53Z" finished-at="2016-07-14T16:20:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:CalcTest@48140564]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-07-14T16:20:53Z" finished-at="2016-07-14T16:20:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:CalcTest@48140564]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-07-14T16:20:53Z" finished-at="2016-07-14T16:20:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:CalcTest@48140564]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-07-14T16:20:53Z" finished-at="2016-07-14T16:20:53Z">
+        </test-method> <!-- throwsNullPointerException -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestEmployeeDetails@27f674d]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-07-16T20:50:44Z" finished-at="2016-07-16T20:50:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:CalcTest@48140564]" name="afterSuite" is-config="true" duration-ms="0" started-at="2016-07-14T16:20:53Z" finished-at="2016-07-14T16:20:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- CalcTest -->
+      </class> <!-- TestEmployeeDetails -->
     </test> <!-- Command line test -->
-  </suite> <!-- CalcTest -->
+  </suite> <!-- Command line suite -->
 </testng-results>

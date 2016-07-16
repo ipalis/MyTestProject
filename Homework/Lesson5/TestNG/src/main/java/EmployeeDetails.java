@@ -11,9 +11,7 @@ public class EmployeeDetails {
     private double bonus;
     private int id;
     private Date dateExpireId;
-
-
-
+    private int workingMonth;
 
     // @return the name
     public String getName() {
@@ -118,5 +116,15 @@ public class EmployeeDetails {
     //param id to set expire date
     public Date getDateExpire(){
         return dateExpireId;
+    }
+
+    //return the working month
+    public void setWorkingMonth(int workingMonth){
+        this.workingMonth = workingMonth;
+    }
+
+    //param id to set orking month
+    public int getWorkingMonth(){
+        return workingMonth;
     }
 }
