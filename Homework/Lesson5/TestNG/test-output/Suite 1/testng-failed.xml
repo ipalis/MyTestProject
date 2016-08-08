@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite 1]">
+  <test name="Part 3(failed)">
+    <groups>
+      <run>
+        <include name="functest"/>
+        <include name="datatest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="ParamTest">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- ParamTest -->
+      <class name="TestEmployeeDetails2">
+        <methods>
+          <include name="timeTestOne"/>
+        </methods>
+      </class> <!-- TestEmployeeDetails2 -->
+    </classes>
+  </test> <!-- Part 3(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->

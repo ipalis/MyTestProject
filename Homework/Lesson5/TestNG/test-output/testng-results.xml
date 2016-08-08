@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="14" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite 1" duration-ms="1169" started-at="2016-07-19T20:14:50Z" finished-at="2016-07-19T20:14:51Z">
+    <groups>
+      <group name="functest">
+        <method signature="TestEmployeeDetails1.testCalculateAppriasal()[pri:0, instance:TestEmployeeDetails1@59e84876]" name="testCalculateAppriasal" class="TestEmployeeDetails1"/>
+        <method signature="TestEmployeeDetails1.testCalculateOneHourCost()[pri:0, instance:TestEmployeeDetails1@59e84876]" name="testCalculateOneHourCost" class="TestEmployeeDetails1"/>
+        <method signature="TestEmployeeDetails1.testCalculateSalary()[pri:0, instance:TestEmployeeDetails1@59e84876]" name="testCalculateSalary" class="TestEmployeeDetails1"/>
+        <method signature="TestEmployeeDetails1.testCalculateYearlySalary()[pri:0, instance:TestEmployeeDetails1@59e84876]" name="testCalculateYearlySalary" class="TestEmployeeDetails1"/>
+        <method signature="TestEmployeeDetails2.testCalculateVacation()[pri:0, instance:TestEmployeeDetails2@643b1d11]" name="testCalculateVacation" class="TestEmployeeDetails2"/>
+        <method signature="TestEmployeeDetails2.testCalculateSalaryOnVacation()[pri:0, instance:TestEmployeeDetails2@643b1d11]" name="testCalculateSalaryOnVacation" class="TestEmployeeDetails2"/>
+        <method signature="TestEmployeeDetails2.timeTestOne()[pri:0, instance:TestEmployeeDetails2@643b1d11]" name="timeTestOne" class="TestEmployeeDetails2"/>
+        <method signature="TestEmployeeDetails2.testCalculateDailySalary()[pri:0, instance:TestEmployeeDetails2@643b1d11]" name="testCalculateDailySalary" class="TestEmployeeDetails2"/>
+        <method signature="TestEmployeeDetails2.timeTestTwo()[pri:0, instance:TestEmployeeDetails2@643b1d11]" name="timeTestTwo" class="TestEmployeeDetails2"/>
+        <method signature="TestEmployeeDetails2.testCalculateTaxAmount()[pri:0, instance:TestEmployeeDetails2@643b1d11]" name="testCalculateTaxAmount" class="TestEmployeeDetails2"/>
+      </group> <!-- functest -->
+      <group name="datatest">
+        <method signature="TestEmployeeDetails1.testIsValidEmployee()[pri:0, instance:TestEmployeeDetails1@59e84876]" name="testIsValidEmployee" class="TestEmployeeDetails1"/>
+      </group> <!-- datatest -->
+    </groups>
+    <test name="Part 1" duration-ms="53" started-at="2016-07-19T20:14:50Z" finished-at="2016-07-19T20:14:50Z">
+      <class name="TestEmployeeDetails1">
+        <test-method status="PASS" signature="testCalculateAppriasal()[pri:0, instance:TestEmployeeDetails1@59e84876]" name="testCalculateAppriasal" duration-ms="14" started-at="2016-07-19T23:14:50Z" finished-at="2016-07-19T23:14:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateAppriasal -->
+        <test-method status="PASS" signature="testCalculateOneHourCost()[pri:0, instance:TestEmployeeDetails1@59e84876]" name="testCalculateOneHourCost" duration-ms="1" started-at="2016-07-19T23:14:50Z" finished-at="2016-07-19T23:14:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateOneHourCost -->
+        <test-method status="PASS" signature="testCalculateSalary()[pri:0, instance:TestEmployeeDetails1@59e84876]" name="testCalculateSalary" duration-ms="1" started-at="2016-07-19T23:14:50Z" finished-at="2016-07-19T23:14:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateSalary -->
+        <test-method status="PASS" signature="testCalculateYearlySalary()[pri:0, instance:TestEmployeeDetails1@59e84876]" name="testCalculateYearlySalary" duration-ms="3" started-at="2016-07-19T23:14:50Z" finished-at="2016-07-19T23:14:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateYearlySalary -->
+        <test-method status="PASS" signature="testIsValidEmployee()[pri:0, instance:TestEmployeeDetails1@59e84876]" name="testIsValidEmployee" duration-ms="1" started-at="2016-07-19T23:14:50Z" finished-at="2016-07-19T23:14:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsValidEmployee -->
+      </class> <!-- TestEmployeeDetails1 -->
+    </test> <!-- Part 1 -->
+    <test name="Part 3" duration-ms="1036" started-at="2016-07-19T20:14:50Z" finished-at="2016-07-19T20:14:51Z">
+      <class name="TestEmployeeDetails2">
+        <test-method status="PASS" signature="testCalculateVacation()[pri:0, instance:TestEmployeeDetails2@643b1d11]" name="testCalculateVacation" duration-ms="93" started-at="2016-07-19T23:14:50Z" finished-at="2016-07-19T23:14:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateVacation -->
+        <test-method status="FAIL" signature="timeTestOne()[pri:0, instance:TestEmployeeDetails2@643b1d11]" name="timeTestOne" duration-ms="502" started-at="2016-07-19T23:14:50Z" finished-at="2016-07-19T23:14:50Z">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method org.testng.internal.TestNGMethod.timeTestOne() didn't finish within the time-out 500]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method org.testng.internal.TestNGMethod.timeTestOne() didn't finish within the time-out 500
+	at java.lang.Throwable.fillInStackTrace(Native Method)
+	at java.lang.Throwable.fillInStackTrace(Throwable.java:783)
+	at java.lang.Throwable.<init>(Throwable.java:265)
+	at java.lang.Exception.<init>(Exception.java:66)
+	at java.lang.InterruptedException.<init>(InterruptedException.java:67)
+	at java.lang.Thread.sleep(Native Method)
+	at TestEmployeeDetails2.timeTestOne(TestEmployeeDetails2.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:46)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:37)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeTestOne -->
+        <test-method status="PASS" signature="testCalculateDailySalary()[pri:0, instance:TestEmployeeDetails2@643b1d11]" name="testCalculateDailySalary" duration-ms="12" started-at="2016-07-19T23:14:50Z" finished-at="2016-07-19T23:14:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateDailySalary -->
+        <test-method status="PASS" signature="timeTestTwo()[pri:0, instance:TestEmployeeDetails2@643b1d11]" name="timeTestTwo" duration-ms="406" started-at="2016-07-19T23:14:50Z" finished-at="2016-07-19T23:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeTestTwo -->
+        <test-method status="PASS" signature="testCalculateTaxAmount()[pri:0, instance:TestEmployeeDetails2@643b1d11]" name="testCalculateTaxAmount" duration-ms="1" started-at="2016-07-19T23:14:51Z" finished-at="2016-07-19T23:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateTaxAmount -->
+        <test-method status="PASS" signature="testCalculateSalaryOnVacation()[pri:0, instance:TestEmployeeDetails2@643b1d11]" name="testCalculateSalaryOnVacation" duration-ms="8" started-at="2016-07-19T23:14:51Z" depends-on-methods="TestEmployeeDetails2.testCalculateVacation" finished-at="2016-07-19T23:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculateSalaryOnVacation -->
+      </class> <!-- TestEmployeeDetails2 -->
+    </test> <!-- Part 3 -->
+    <test name="Part 2" duration-ms="25" started-at="2016-07-19T20:14:51Z" finished-at="2016-07-19T20:14:51Z">
+      <class name="ParamTest">
+        <test-method status="PASS" signature="testCheckExpireDateId(java.lang.String, boolean)[pri:0, instance:ParamTest@735b5592]" name="testCheckExpireDateId" duration-ms="5" started-at="2016-07-19T23:14:51Z" data-provider="exampletest2" finished-at="2016-07-19T23:14:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8/7/2017]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckExpireDateId -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:ParamTest@735b5592]" name="initialize" is-config="true" duration-ms="0" started-at="2016-07-19T23:14:51Z" finished-at="2016-07-19T23:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:ParamTest@735b5592]" name="initialize" is-config="true" duration-ms="0" started-at="2016-07-19T23:14:51Z" finished-at="2016-07-19T23:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testCheckExpireDateId(java.lang.String, boolean)[pri:0, instance:ParamTest@735b5592]" name="testCheckExpireDateId" duration-ms="4" started-at="2016-07-19T23:14:51Z" data-provider="exampletest2" finished-at="2016-07-19T23:14:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15/10/2015]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckExpireDateId -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:ParamTest@735b5592]" name="initialize" is-config="true" duration-ms="0" started-at="2016-07-19T23:14:51Z" finished-at="2016-07-19T23:14:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testCheckExpireDateId(java.lang.String, boolean)[pri:0, instance:ParamTest@735b5592]" name="testCheckExpireDateId" duration-ms="4" started-at="2016-07-19T23:14:51Z" data-provider="exampletest2" finished-at="2016-07-19T23:14:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10/02/2018]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckExpireDateId -->
+      </class> <!-- ParamTest -->
+    </test> <!-- Part 2 -->
+  </suite> <!-- Suite 1 -->
+</testng-results>

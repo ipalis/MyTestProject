@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://D:/Libraries/selenium-2.53.1/selenium-java-2.53.1.jar!/" />
+      <root url="jar://D:/Libraries/selenium-2.53.1/selenium-server-2.53.1.jar!/" />
+      <root url="jar://D:/Libraries/selenium-server-standalone-2.53.1.jar!/" />
+      <root url="file://D:/Libraries/selenium-2.53.1/libs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://D:/Libraries/selenium-2.53.1/selenium-java-2.53.1-srcs.jar!/" />
+      <root url="jar://D:/Libraries/selenium-2.53.1/selenium-server-2.53.1-srcs.jar!/" />
+    </SOURCES>
+    <jarDirectory url="file://D:/Libraries/selenium-2.53.1/libs" recursive="false" />
+  </library>
+</component>
