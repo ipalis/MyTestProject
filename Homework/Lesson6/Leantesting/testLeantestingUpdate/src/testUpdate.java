@@ -46,7 +46,7 @@ public class testUpdate {
         assertTrue(bug.checkResult().equals("added a new comment"));
 
         File screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(screenshot, new File("D:\\testCreate\\screenshot.png"));
+        FileUtils.copyFile(screenshot, new File("D:\\testUpdate\\screenshot.png"));
 
     }
 }
