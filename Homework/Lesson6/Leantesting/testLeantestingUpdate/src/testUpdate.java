@@ -34,7 +34,7 @@ public class testUpdate {
 
 
     @Test
-    public void testSearch () throws IOException, AWTException {
+    public void testUpdate () throws IOException, AWTException {
 
         startPage home = new startPage(driver);
         logInPage logIn = home.click();
